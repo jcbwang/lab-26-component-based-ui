@@ -1,0 +1,42 @@
+@import "./variables";
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: $background;
+  
+  header{
+    color: rgb(31, 94, 211);
+    font-family: $header-font;
+    font-size: 1.5em;
+  }
+
+  h2{
+    padding:1.5em;
+    color: black;
+    background-color: rgb(226, 240, 247);
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2em;
+    font-family: $font;
+    border-radius:1em;
+    font-size:2em;
+  }
+
+  a{
+    margin-right: 1em;
+    font-family: $header-font;
+    text-decoration: none;
+    background-color:rgb(226, 240, 247);
+    padding: .7em;
+    border-radius:1em;
+    color: rgb(87, 90, 90);
+  }
+
+  footer{
+    margin-top: 3em;
+    font-family: $font;
+  }
+}
